@@ -1,0 +1,1 @@
+SPARK_HISTORY_OPTS="$SPARK_HISTORY_OPTS -Dspark.eventLog.enabled=true -Dspark.eventLog.dir=hdfs://127.0.1.1:9000/user/alberttriadrian/eventLogging -Dspark.history.fs.logDirectory=hdfs://127.0.1.1:9000/user/alberttriadrian/eventLogging"
